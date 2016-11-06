@@ -1,0 +1,56 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Online Indian Visa Form</title>
+        <noscript>
+        <meta http-equiv="refresh" content="0; URL=no_js.html">
+        </noscript>
+        
+            <link href='css/Online_regular.css' rel="stylesheet" type="text/css"/>
+            <link href='css/jquery_theme_tvoa.css' rel="stylesheet" type="text/css"/>
+          
+        
+        <link href='css/jquery-ui.min.css' rel="stylesheet" type="text/css"/>
+        <link rel="icon"  href="images/favicon.ico" /> 
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.js"></script>     
+        <script type="text/javascript" src="js/declarations.js?rev=05082016"></script>
+<script type="text/javascript" src="js/blur_functions.js?rev=05082016"></script>
+<script type="text/javascript" src="js/submit_functions.js?rev=05082016"></script>  
+        <script>
+            window.onload = function () {
+                document.onkeydown = function (e) {
+                    return (e.which || e.keyCode) != 116;
+                }
+            }
+        </script>
+    </head>
+    <body onLoad="backButtonOverride()">
+
+        <!--onsubmit="return validate_basic_details_form();"-->
+        <div class="wrapper">
+            <div class="pageHeader" ></div> 
+            <div class="pageHeading1 text_center">
+                fb.com/sagor1100  
+                <a href="index.html"><img align="right" src="./images/home.png" style=" width: 30px; height:26px;" ></a>
+            </div>
+            <div class="container">   
+                <div class="row message text_center" style="margin-top:40px"> 
+                    <BR>
+                    PDF Downloader Without Captcha <span stlye="color:#474141">Sagor</span>
+                </div> 
+                <div class="row message text_center" style="margin-top:40px">
+                    <form action="PrintApplication" method="POST">
+                        <input name="submit_btn" id="submit_btn" class="btn btn-primary" type="submit" value="Print Form">
+                        <input type="hidden" name="filerfno" value='BGDDYDA15F16'>
+
+                    </form>
+                </div>
+            </div>               
+        </div>
+    </body>
+</html>
